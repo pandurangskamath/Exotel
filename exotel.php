@@ -37,4 +37,5 @@ if ($conn->query($insert_sql) === TRUE) {
 }
 
 $conn->close();
+
 ?>
