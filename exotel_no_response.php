@@ -32,4 +32,5 @@ $Body = $_GET["Body"];
 $insert_sql = sprintf("insert into tablename values ('%s', '%s', '%s', %s, '%s')", $SmsSid, $From, $To, $Date, $Body);
 $conn->query($insert_sql);
 $conn->close();
+
 ?>
