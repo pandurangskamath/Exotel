@@ -1,6 +1,7 @@
 <?php
 //content type must be set to text/plain
 header('Content-Type: text/plain');
+//content length must be set to 0
 header('Content-Length: 0');
 
 //exotel sends a HEAD request to verify the headers
